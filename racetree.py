@@ -4,9 +4,10 @@
     Flat Race Tree
    
     Reference: 
-    G. Tzimpragos, A. Madhavan, D. Vasudevan, D. Strukov, and T. Sherwood, "Boosted Race Trees for Low Energy Classification", 
-    in the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 
-    Providence, RI, 2019.
+    G. Tzimpragos, A. Madhavan, D. Vasudevan, D. Strukov, and T. Sherwood, 
+    "Boosted Race Trees for Low Energy Classification", in the 24th International 
+    Conference on Architectural Support for Programming Languages and Operating 
+    Systems (ASPLOS), Providence, RI, 2019.
 
     More about PyRTL: https://pyrtl.readthedocs.io/
 """
