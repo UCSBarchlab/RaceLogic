@@ -13,6 +13,7 @@
 """
 
 import pyrtl
+from racelogic_sim_input_stimuli import *
 
 def inhibit_rl(i, j):
     """
@@ -58,20 +59,6 @@ def add_const_rl(din, k):
     sr = pyrtl.Register(bitwidth = k)
     sr.next <<= pyrtl.concat(sr[:-1], din)
     return sr[-1]
-
-def race_testval(x):
-    """
-        Generator returning a delay-encoded value for x.
-    """
-    if x is None:
-        while True:
-            yield 0
-    else:
-        for i in range(x):
-            yield 0
-        while True:
-            yield 1
-    return
 
 
 ### Testing ###
