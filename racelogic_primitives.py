@@ -17,7 +17,7 @@
 """
 
 import pyrtl
-from racelogic_sim_input_stimuli import *
+from racelogic_sim_input_stimuli import race_testval
 
 def inhibit_rl(i, j):
     """
@@ -64,7 +64,7 @@ def add_const_rl(din, k):
     sr.next <<= pyrtl.concat(sr[:-1], din)
     return sr[-1]
 
-
+'''
 ### Testing ###
 
 # List of input values
@@ -99,3 +99,5 @@ for cycle in range(10):
     sim.step({k: v() for k, v in sim_dict.items()})
 sim_trace.render_trace()
 
+exit(0)
+'''

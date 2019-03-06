@@ -21,6 +21,9 @@ def race_testval(x):
         while True:
             yield 1
 
+'''
+### Testing ###
+
 # List of input values
 ft_values_in = [5, 2,4]
 
@@ -38,5 +41,4 @@ for cycle in range(10):
 sim_trace.render_trace()
 
 exit(0)
-
-
+'''
