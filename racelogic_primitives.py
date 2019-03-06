@@ -1,13 +1,17 @@
 """ 
     Python 2.7 
 
-    Implementation of the 4 primitive Race Logic 
-    operators in PyRTL.
+    Implementation of the 4 primitive Race Logic operators in PyRTL.
 
-    In Race Logic, a range of magnitudes can be encoded
-    on a single wire with a single edge (0->1 convention). 
-    Smaller delays in rise time encode smaller magnitudes, 
-    while larger magnitudes are encoded as longer delays. 
+    In Race Logic, a range of magnitudes can be encoded on a single wire with 
+    a single edge (0->1 convention). Smaller delays in rise time encode 
+    smaller magnitudes, while larger magnitudes are encoded as longer delays. 
+
+    Reference:
+    G. Tzimpragos, A. Madhavan, D. Vasudevan, D. Strukov, and T. Sherwood, 
+    "Boosted Race Trees for Low Energy Classification", in the 24th International 
+    Conference on Architectural Support for Programming Languages and Operating 
+    Systems (ASPLOS), Providence, RI, 2019.
 
     More about PyRTL: https://pyrtl.readthedocs.io/
 """
