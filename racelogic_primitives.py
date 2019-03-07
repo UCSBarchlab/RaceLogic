@@ -70,7 +70,7 @@ def add_const_rl(din, k):
             sr.next <<= pyrtl.concat(sr[:-1], din)
         return sr[-1]
 
-
+'''
 ### Testing ###
 
 # List of input values
@@ -106,4 +106,4 @@ for cycle in range(10):
 sim_trace.render_trace()
 
 exit(0)
-
+'''

@@ -1,7 +1,12 @@
 """ 
     Python 2.7 
     
-    Flat Race Tree
+    Flat Race Tree:
+    A decision trees can be viewed as a set of independent and parallel rather than 
+    sequential decision rules that lead to a final prediction when combined accordingly. 
+    Each leaf now can be represented as a logical function of the binary decisions 
+    encountered at the nodes on its path to the root. In other words, each path from 
+    the tree root to a leaf corresponds to a unique conjunction of attribute tests.
    
     Reference: 
     G. Tzimpragos, A. Madhavan, D. Vasudevan, D. Strukov, and T. Sherwood, 

@@ -1,8 +1,7 @@
 """ 
     Python 2.7 
     
-    Reverse Race Tree: main building blocks and paper's example
-    
+    Reverse Race Tree:
     Leaf labels can be thought of as packets that are routed through a "reverse
     tree" network. Some packets are discarded along the way, but the packet at
     the output has been routed unchanged. Externally, the packets are assigned
