@@ -66,12 +66,11 @@ def add_const_rl(din, k):
         sr = pyrtl.Register(bitwidth = k)
         if k == 1:
             sr.next <<= din
-            return sr
         else:
             sr.next <<= pyrtl.concat(sr[:-1], din)
-            return sr[-1]
+        return sr[-1]
 
-'''
+
 ### Testing ###
 
 # List of input values
@@ -97,7 +96,7 @@ inh_out_case0 <<= inhibit_rl(din1, din0) # controlling input: din1
 inh_out_case1 <<= inhibit_rl(din0, din1) # controlling input: din0
 max_out <<= max_rl(din_wv)
 min_out <<= min_rl(din_wv)
-add_const_out <<= add_const_rl(din0, 333333333333333333333333333333333) # add k=3
+add_const_out <<= add_const_rl(din0, 3) # add k=3
 
 # Simulate  
 sim_trace = pyrtl.SimulationTrace()
@@ -107,4 +106,4 @@ for cycle in range(10):
 sim_trace.render_trace()
 
 exit(0)
-'''
+
