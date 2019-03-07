@@ -60,9 +60,16 @@ def add_const_rl(din, k):
         Input: a 1-bit WireVector, k: added constant
         Output: a 1-bit WireVector
     """
-    sr = pyrtl.Register(bitwidth = k)
-    sr.next <<= pyrtl.concat(sr[:-1], din)
-    return sr[-1]
+    if k == 0:
+        return din
+    else:
+        sr = pyrtl.Register(bitwidth = k)
+        if k == 1:
+            sr.next <<= din
+            return sr
+        else:
+            sr.next <<= pyrtl.concat(sr[:-1], din)
+            return sr[-1]
 
 '''
 ### Testing ###
@@ -90,7 +97,7 @@ inh_out_case0 <<= inhibit_rl(din1, din0) # controlling input: din1
 inh_out_case1 <<= inhibit_rl(din0, din1) # controlling input: din0
 max_out <<= max_rl(din_wv)
 min_out <<= min_rl(din_wv)
-add_const_out <<= add_const_rl(din0, 3) # add k=3
+add_const_out <<= add_const_rl(din0, 333333333333333333333333333333333) # add k=3
 
 # Simulate  
 sim_trace = pyrtl.SimulationTrace()
