@@ -19,7 +19,7 @@ Install PyRTL (https://pyrtl.readthedocs.io/)
 
 ```sudo pip install pyrtl``` or ```pip install --user pyrtl```
 
-then run example 
+then run example (Python 2.7)
 
 ```python tests/{test_name}```
 
