@@ -35,8 +35,8 @@ then run example
 
 ### Other related work:
 
-- James E. Smith, "Space-time algebra: a model for neocortical computation", in the 45th Annual International Symposium on Computer Architecture (ISCA), Los Angeles, CA, 2018.
-- James E. Smith, Margaret Martonosi, "Space-Time Computing with Temporal Neural Networks", Morgan & Claypool Publishers, 2017.
+- J. E. Smith, "Space-time algebra: a model for neocortical computation", in the 45th Annual International Symposium on Computer Architecture (ISCA), Los Angeles, CA, 2018.
+- J. E. Smith, M. Martonosi, "Space-Time Computing with Temporal Neural Networks", Morgan & Claypool Publishers, 2017.
 
 
 ### Contact & Citation:
