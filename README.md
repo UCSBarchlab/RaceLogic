@@ -39,7 +39,7 @@ then run example
 - J. E. Smith, M. Martonosi, "Space-Time Computing with Temporal Neural Networks", Morgan & Claypool Publishers, 2017.
 
 
-### Contact & Citation:
+### Contact:
 
 For general questions feel free to reach out to [Archlab @ UCSB](https://www.arch.cs.ucsb.edu/).
 
