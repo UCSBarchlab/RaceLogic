@@ -8,10 +8,10 @@ In a nutshell, though application specific, a change of information representati
 
 ### Package Contents
 
-In the package you should find the following directories and files:
-* *base/* PyRTL implementations of Race Logic's primary operations and other useful functions. 
-* *racetrees/* PyRTL implementations of the Flat and Reverse Race Trees presented in [1].
-* *tests/* A set of tests for all PyRTL-based Race Logic implementations.
+In the package you should find the following directories:
+* *base/*   PyRTL implementations of Race Logic's primary operations and other useful functions. 
+* *racetrees/*    PyRTL implementations of the Flat and Reverse Race Trees presented in [1].
+* *tests/*    A set of tests for all PyRTL-based Race Logic implementations.
 
 ### Example Usage
 
