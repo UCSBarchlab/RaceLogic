@@ -1,4 +1,4 @@
-### RaceLogic
+### Race Logic
 
 When extremely low-energy processing is required, the choice of data representation makes a tremendous difference. Each representation (e.g. frequency domain, residue coded, log-scale) comes with a unique set of trade-offs -- some operations are easier in that domain while others are harder. The core idea behind Race Logic is to do computation through the purposeful manipulation of signal delays (either synchronously or asynchronously) rather than final logic levels. All signals are supposed to be 0 or 1 at all times. However, the time at which 0 to 1 transition happens encodes the value. Computations can then be based on the observation of the relative propagation times of signals injected into a configurable circuit. 
 
