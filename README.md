@@ -25,7 +25,7 @@ then run example (Python 2.7)
 
 ### References:
 
-[1] G. Tzimpragos, A. Madhavan, D. Vasudevan, D. Strukov, and T. Sherwood, "Boosted Race Trees for Low Energy Classification", in the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Providence, RI, 2019. 
+[1] G. Tzimpragos, A. Madhavan, D. Vasudevan, D. Strukov, and T. Sherwood, "Boosted Race Trees for Low Energy Classification", in the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Providence, RI, 2019. (Best Paper Award)
 
 [2] A. Madhavan, T. Sherwood and D. Strukov, "Energy efficient computation with asynchronous races", in the 53rd Annual Design Automation Conference (DAC), New York, NY, 2016.
 
