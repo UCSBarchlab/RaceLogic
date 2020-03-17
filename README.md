@@ -35,6 +35,7 @@ then run example (Python 2.7)
 
 ### Other related work:
 
+- G. Tzimpragos, D. Vasudevan, N. Tsiskaridze, G. Michelogiannakis, A. Madhavan, J. Volk, J. Shalf, and T. Sherwood, "A Computational Temporal Logic for Superconducting Accelerators", in the 25th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Lausanne, Switzerland, 2020.
 - J. E. Smith, "Space-time algebra: a model for neocortical computation", in the 45th Annual International Symposium on Computer Architecture (ISCA), Los Angeles, CA, 2018.
 - J. E. Smith, M. Martonosi, "Space-Time Computing with Temporal Neural Networks", Morgan & Claypool Publishers, 2017.
 
