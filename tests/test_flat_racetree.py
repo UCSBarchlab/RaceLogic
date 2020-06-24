@@ -15,7 +15,6 @@ import os, sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'base'))
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'racetrees'))
 from flat_racetree import FlatRaceTree
-from racelogic_primitives import inhibit_rl 
 from racelogic_sim_input_stimuli import race_testval
 
 
@@ -48,6 +47,6 @@ for cycle in range(2**inp_res + 1):
         'x' : k.next(),        
         'y' : l.next()
         })
-sim_trace.render_trace()
+sim_trace.render_trace(symbol_len=5, segment_size=1)
 
 exit(0)
