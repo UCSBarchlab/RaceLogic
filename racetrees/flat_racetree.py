@@ -60,7 +60,7 @@ class FlatRaceTree:
         # create a local copy of the input feature data (tree's attributes)
         a = data_buffer(self.attributes)
         # create delay-coded thresholds
-        t = shift_reg(din = pyrtl.Const("1'b1"), n = 2**self.inp_res - 1)
+        t = shift_reg(din = pyrtl.Const("1'b1"), n = 2**self.inp_res)
         # connect attributes and thresholds to the inhibits implementing tree's nodes
         tree_inhs_o = [inhibit_rl(t[self.tree_nodes[i][0]], a[self.tree_nodes[i][1]]) for i in range(len(self.tree_nodes))]
         # decode
@@ -121,5 +121,5 @@ def and_rec(din_l):
     if len(din_l) == 1:
         dout = din_l[0]
     else:
-        dout = din_l[0] & or_rec(din_l[1:])
+        dout = din_l[0] & and_rec(din_l[1:])
     return dout
