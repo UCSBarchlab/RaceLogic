@@ -38,7 +38,7 @@ then run example (Python 2.7)
 - J. E. Smith, “A neuromorphic paradigm for online unsupervised clustering”, 2020.
 - D. Wu, J. Li, R. Yin, H. Hsiao, Y. Kim, and J. S. Miguel, "uGEMM: Unary Computing Architecture for GEMM Applications", in the 48th Annual International Symposium on Computer Architecture (ISCA), Valencia, Spain, 2020. Github:https://github.com/diwu1990/UnarySim
 - G. Tzimpragos, D. Vasudevan, N. Tsiskaridze, G. Michelogiannakis, A. Madhavan, J. Volk, J. Shalf, and T. Sherwood, "A Computational Temporal Logic for Superconducting Accelerators", in the 25th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Lausanne, Switzerland, 2020. Github:https://github.com/UCSBarchlab/Superconducting-Temporal-Logic
-- James E. Smith, "(Newtonian) Space-Time Algebra", 2019.
+- J. E. Smith, "(Newtonian) Space-Time Algebra", 2019.
 - J. E. Smith, "Space-time algebra: a model for neocortical computation", in the 45th Annual International Symposium on Computer Architecture (ISCA), Los Angeles, CA, 2018.
 - J. E. Smith, M. Martonosi, "Space-Time Computing with Temporal Neural Networks", Morgan & Claypool Publishers, 2017.
 
