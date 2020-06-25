@@ -29,7 +29,7 @@ then run example (Python 2.7)
 
 [2] A. Madhavan, T. Sherwood and D. Strukov, "Energy efficient computation with asynchronous races", in the 53rd Annual Design Automation Conference (DAC), New York, NY, 2016.
 
-[3] A. Madhavan, T. Sherwood and D. Strukov, "Race Logic: Abusing Hardware Race Conditions to Perform Useful Computation", IEEE Micro: Micro's Top Picks from Computer Architecture Conferences (IEEE Micro - top pick), 2015.
+[3] A. Madhavan, T. Sherwood and D. Strukov, "Race Logic: Abusing Hardware Race Conditions to Perform Useful Computation", IEEE Micro: Micro's Top Picks from Computer Architecture Conferences, 2015.
 
 [4] A. Madhavan, T. Sherwood and D. Strukov, "Race Logic: A hardware acceleration for dynamic programming algorithms", in the 41st International Symposium on Computer Architecture (ISCA), Minneapolis, MN, 2014.
 
