@@ -49,7 +49,7 @@ class FlatRaceTree:
                 else:
                     tmp[j][i] = din[idx-1]
             step = step/2
-        dec_1hot = [and_rec(tmp[j]) for j in range(2**self.tree_depth)]
+        dec_1hot = [pyrtl.corecircuits.and_all_bits(tmp[j]) for j in range(2**self.tree_depth)]
         dec_bin = onehot2bin(dec_1hot)
         return dec_bin
 
@@ -101,25 +101,5 @@ def onehot2bin(din):
             with pyrtl.otherwise:
                 b |= 0
         bin_l[i] = b
-    dout = or_rec(bin_l)
-    return dout
-
-def or_rec(din_l):
-    """
-        ORing a list of WireVectors recursively.
-    """
-    if len(din_l) == 1:
-        dout = din_l[0]
-    else:
-        dout = din_l[0] | or_rec(din_l[1:])
-    return dout
-
-def and_rec(din_l):
-    """
-        ANDing a list of WireVectors recursively.
-    """
-    if len(din_l) == 1:
-        dout = din_l[0]
-    else:
-        dout = din_l[0] & and_rec(din_l[1:])
+    dout = pyrtl.corecircuits.or_all_bits(bin_l)
     return dout
