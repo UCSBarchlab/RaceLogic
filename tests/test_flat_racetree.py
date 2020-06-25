@@ -39,13 +39,13 @@ out_bin <<= tree_out[0]
 valid_out <<= tree_out[1]
 
 # Simulate
-k, l = race_testval(2), race_testval(3)
+xin, yin = race_testval(2), race_testval(3)
 sim_trace = pyrtl.SimulationTrace()
 sim = pyrtl.Simulation(tracer=sim_trace)
 for cycle in range(2**inp_res + 1):
     sim.step({
-        'x' : k.next(),        
-        'y' : l.next()
+        'x' : xin.next(),        
+        'y' : yin.next()
         })
 sim_trace.render_trace(symbol_len=5, segment_size=1)
 
