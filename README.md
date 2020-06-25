@@ -35,7 +35,7 @@ then run example (Python 2.7)
 
 ### Other related work:
 
-- J. E. Smith, “A neuromorphic paradigm for online unsupervisedclustering,” 2020.
+- J. E. Smith, “A neuromorphic paradigm for online unsupervised clustering,” 2020.
 - D. Wu, J. Li, R. Yin, H. Hsiao, Y. Kim, and J. S. Miguel, "uGEMM: Unary Computing Architecture for GEMM Applications", in the 48th Annual International Symposium on Computer Architecture (ISCA), Valencia, Spain, 2020. Github: https://github.com/diwu1990/UnarySim
 - G. Tzimpragos, D. Vasudevan, N. Tsiskaridze, G. Michelogiannakis, A. Madhavan, J. Volk, J. Shalf, and T. Sherwood, "A Computational Temporal Logic for Superconducting Accelerators", in the 25th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Lausanne, Switzerland, 2020. Github: https://github.com/UCSBarchlab/Superconducting-Temporal-Logic
 - James E. Smith, "(Newtonian) Space-Time Algebra," 2019.
